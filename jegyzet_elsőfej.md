@@ -35,7 +35,6 @@
  * **PROC-step**:
   * egy ilyen blokk a PROC paranccsal kezdődik, majd, hogy mit akarunk csinálni és, hogy mely SAS adatbázissal
   * ilyen lépésben lehet rendezni a megfigyeléseinket, elemzéseket generálni, vagy ábrázolni
-
  * az egyes blokkokat a RUN paranccsal zárhatjuk le, ekkor ez azt jelenti a programnak, hogy az adott blokk sorait/parancsait olvassa és hajtsa végre
  * ha egymás után jönnek a blokkok, akkor nem feltétlenül szükséges a RUN parancsot kiírni, de célszerű, mert lehetséges, hogy csak egy egy blokkot akarunk futtatni
  * az eddigiekből úgy tűnhet, hogy egy SAS program felépítése csak olyan lehet, hogy a DATA-step-pek mindig megelőzik a PROC-step-pekket, de ez persze nem igaz - sőt annyira nem igaz, hogy az is kijelenthető ( az eddigieknek ellentmondva ), hogy a két blokk közti különbségek homályosak
