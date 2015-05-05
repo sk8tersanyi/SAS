@@ -3,7 +3,7 @@
   * SAS = Statistical Analysis Sysytem
   * SAS-ban nincs különbség kicsi- és nagybetű között !!!
 
-## Első fejezet
+# Első fejezet
 
  ## A SAS nyelv
     
@@ -12,6 +12,6 @@
  * maga a szöveg szerkeztése ( pontosvesszők használata mellett ) mindegy, de célszerű különböző sorokra tördelni
  * a program megértése kommentek használatával fokozható
  * kétfajta komment van:
-  * * <komment> ;
-  * /* <komment> */
+  * * _komment szövege_ ;
+  * /* _komment szövege_ */
 
