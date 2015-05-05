@@ -17,4 +17,12 @@
   * karakter - ebbe megy minden más, továbbá ez csak 32767 karakter hosszú lehet
  * ha egy adat betűt, vagy speciális karaktert tartalmaz, akkor automatikusan karakter tipusú lesz
  * különben nekünk van lehetőségünk eldönteni, hogyan kezeljük a megadott adatot
+ * SAS-ban a hiányzó numerikus adatot ponttal, míg a hiányzó karakter adatot üres mezővel reprezentáljuk
+ * egy ilyen táblában legfeljebb 32767 változónk lehet, de megfigyelésből annyit vehetünk fel amennyit a gép elbír
+ * a változók neveire teljesülnie kell, hogy: legfeljebb 32 karakter husszúak; betűvel, vagy alulvonással kezdődnek; csak betűket, számjegyeket, vagy alulvonásokat tartalmaznak; lehet bennük kicsi és nagybetű is ( habár ez lényegtelen! )
+ * FONTOS - változók nevében sincs különbség kicsi- és nagybetű között
+ * annyi történik, hogy mikor kiíratjuk az eredményt, akkor az adott változót az első feltűnésének megfelelően írja ki a program
+ * egy ilyen SAS adatbázis alapinformációkat tárol az adathalmaz összességéről ( név, dátum) és az egyes változókról külön külön ( típus, hossz, pozíció az adatbázison belül )
+ 
+## SAS programok két része
  * 
