@@ -14,5 +14,6 @@
   * * _komment szövege_ ;
   * /* _komment szövege_ */ - ezt néha a fordító nem szereti ( OP rendszer függő )
  
-## SAS adatbázisok
+## SAS adathalmazok
+ * 
 
