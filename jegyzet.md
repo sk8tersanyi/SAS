@@ -10,7 +10,9 @@
  * FONTOS - minden parancs/kijelentés végén pontosvessző kell álljon
  * maga a szöveg szerkeztése ( pontosvesszők használata mellett ) mindegy, de célszerű különböző sorokra tördelni
  * a program megértése kommentek használatával fokozható
- * kétfajta komment van:
+ * kétfajta komment van - mind a kettővel lehet többsoros kommenteket írni
   * * _komment szövege_ ;
-  * /* _komment szövege_ */
+  * /* _komment szövege_ */ - ezt néha a fordító nem szereti ( OP rendszer függő )
+ 
+## SAS adatbázisok
 
