@@ -51,3 +51,6 @@
  * **batch, avagy háttér mód**: evvel be tudjuk ütemezni a a program futtatását a gépünk egyéb teendői közé - nem minden rendszeren elérhető
  * **távoli futtatás**: lokálisan írjuk és egy távoli szervergépen futtatjuk, ami az eredményt visszaküldi
  * **interaktív soronkénti mód**: NE!!!!! - nem lehet visszaugrani ha hiba van, előről kell az egészet
+
+## SAS Windowing Environmnet ablakai és parancsai
+ * 
