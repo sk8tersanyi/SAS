@@ -42,6 +42,12 @@
 ## A DATA-step beépített ciklusa
  * egy DATA-step blokkon belül a parancsok kiértékelése, illetve adatbázisok beolvasása soronként történik
  * FONTOS - ugyanez igaz egy adabázisra is, azaz úgy számolunk egy DATA-step blokkon belül, hogy vesszük az adatbázis első sorát, ezt kiértékeljük a parancssoroknak megfelelően, utána tvoábbugrunk a következő megfigyelésre és ott ugyanez ... így iterálva tovább
- * az iterált folyamat i. lépése: **az adatbázis i. megfigyelése (INPUT )** -> **DATA-step parancssorainak végrehajtása soronként** -> **az adatbázis i. megfigyelése ( OUTPUT )**
+ * az iterált folyamat i. lépése: **az adatbázis i. megfigyelése ( INPUT )** -> **DATA-step parancssorainak végrehajtása soronként** -> **az adatbázis i. megfigyelése ( OUTPUT )**
  
-
+## Lehetőségek a SAS programunk szerkeztésére/futtatására
+ * **SAS windowing environment**: alapfelület, ha futtatjuk a SAS-t - interaktív; EZ!
+ * **SAS Enterprise Guide**: már nem igazán van ilyen, de itt csak futtatni lehet a programjainkat
+ * **nem interaktv mód**: amikor a SAS programunk külön fájlban van és terminálból futtatjuk a *SAS* parancs segítségével
+ * **batch, avagy háttér mód**: evvel be tudjuk ütemezni a a program futtatását a gépünk egyéb teendői közé - nem minden rendszeren elérhető
+ * **távoli futtatás**: lokálisan írjuk és egy távoli szervergépen futtatjuk, ami az eredményt visszaküldi
+ * **interaktív soronkénti mód**: NE!!!!! - nem lehet visszaugrani ha hiba van, előről kell az egészet
