@@ -53,4 +53,6 @@
  * **interaktív soronkénti mód**: NE!!!!! - nem lehet visszaugrani ha hiba van, előről kell az egészet
 
 ## SAS Windowing Environmnet ablakai és parancsai
- * 
+ * anno nem volt lehetőség ezen felület megjelenésének beállítására/módosítására, de mára ez megváltozott és teljesen flexibilis lett
+ * öt különböző alap SAS ablak típust különböztetünk meg: **Results**, **Explorer**, **Editor**, **Log**, **Output** ( utóbbi három a programozási ablakok )
+ * persze ezeken felül további típusok is léteznek
