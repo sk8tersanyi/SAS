@@ -40,4 +40,5 @@
  * az eddigiekből úgy tűnhet, hogy egy SAS program felépítése csak olyan lehet, hogy a DATA-step-pek mindig megelőzik a PROC-step-pekket, de ez persze nem igaz - sőt annyira nem igaz, hogy az is kijelenthető ( az eddigieknek ellentmondva ), hogy a két blokk közti különbségek homályosak
 
 ## A DATA-step beépített ciklusa
- * 
+ * egy DATA-step blokkon belül a parancsok kiértékelése, illetve adatbázisok beolvasása soronként történik
+ * FONTOS - ugyanez igaz egy adabázisra is, azaz úgy számolunk egy DATA-step blokkon belül, hogy vesszük az adatbázis első sorát, ezt kiértékeljük a parancssoroknak megfelelően, utána tvoábbugrunk a következő megfigyelésre és ott ugyanez ... így iterálva tovább
