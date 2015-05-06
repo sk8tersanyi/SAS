@@ -42,6 +42,6 @@
 ## A DATA-step beépített ciklusa
  * egy DATA-step blokkon belül a parancsok kiértékelése, illetve adatbázisok beolvasása soronként történik
  * FONTOS - ugyanez igaz egy adabázisra is, azaz úgy számolunk egy DATA-step blokkon belül, hogy vesszük az adatbázis első sorát, ezt kiértékeljük a parancssoroknak megfelelően, utána tvoábbugrunk a következő megfigyelésre és ott ugyanez ... így iterálva tovább
- * az iterált folyamat i. lépése: ** az adatbázis i. megfigyelése (INPUT ) -> DATA-step parancssorainak végrehajtása soronként -> az adatbázis i. megfigyelése ( OUTPUT ) **
+ * az iterált folyamat i. lépése: ** az adatbázis i. megfigyelése (INPUT ) ** -> ** DATA-step parancssorainak végrehajtása soronként ** -> ** az adatbázis i. megfigyelése ( OUTPUT ) **
  
 
