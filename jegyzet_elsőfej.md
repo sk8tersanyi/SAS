@@ -54,5 +54,16 @@
 
 ## SAS Windowing Environmnet ablakai és parancsai
  * anno nem volt lehetőség ezen felület megjelenésének beállítására/módosítására, de mára ez megváltozott és teljesen flexibilis lett
- * öt különböző alap SAS ablak típust különböztetünk meg: **Results**, **Explorer**, **Editor**, **Log**, **Output** ( utóbbi három a programozási ablakok )
- * persze ezeken felül további típusok is léteznek
+ * öt különböző alap SAS ablak típust különböztetünk meg: **Results**, **Explorer**, **Editor**, **Log**, **Output** ( utóbbi három a programozási ablakok ):
+  * **Editor**: ez egy feltúrbózott szövegszerkeztő ( szintaxisra érzékeny színes kódsorok ), mellyel a programunkat könnyen tudjuk módosítani, illetve az egyes ciklusokat bezárni, stb.
+  * **Log**: a program futtatása után az aktuális fordítással megjelenő hibák és figyelmeztetések jegyzékét, illetve egyéb értelemszerű adatokat tartalmaz
+  * **Output**: ha van a kimenetben adatkiírás, akkor az itt jelenik meg
+  * **Results**: annak a táblázatba szedése, hogy mi szerepel az előbbi ablakban
+  * **Explorer**: hozzáférést biztosít a SAS könyvtárjainkhoz és fáljainkhoz
+ * persze ezeken felül további típusok is léteznek - például a **Help**, **Options** és ilyenek
+ * **Editor**: ez egy feltúrbózott szövegszerkeztő ( szintaxisra érzékeny színes kódsorok ), mellyel a programunkat könnyen tudjuk módosítani, illetve az egyes ciklusokat bezárni, stb.
+ * **Log**: a program futtatása után az aktuális fordítással megjelenő hibák és figyelmeztetések jegyzékét, illetve egyéb értelemszerű adatokat tartalmaz
+ * **Output**: ha van a kimenetben adatkiírás, akkor az itt jelenik meg
+ * **Results**: annak a táblázatba szedése, hogy mi szerepel az előbbi ablakban
+ * **Explorer**: hozzáférést biztosít a SAS könyvtárjainkhoz és fáljainkhoz
+ * 
