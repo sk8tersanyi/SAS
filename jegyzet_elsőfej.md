@@ -61,9 +61,4 @@
   * **Results**: annak a táblázatba szedése, hogy mi szerepel az előbbi ablakban
   * **Explorer**: hozzáférést biztosít a SAS könyvtárjainkhoz és fáljainkhoz
  * persze ezeken felül további típusok is léteznek - például a **Help**, **Options** és ilyenek
- * **Editor**: ez egy feltúrbózott szövegszerkeztő ( szintaxisra érzékeny színes kódsorok ), mellyel a programunkat könnyen tudjuk módosítani, illetve az egyes ciklusokat bezárni, stb.
- * **Log**: a program futtatása után az aktuális fordítással megjelenő hibák és figyelmeztetések jegyzékét, illetve egyéb értelemszerű adatokat tartalmaz
- * **Output**: ha van a kimenetben adatkiírás, akkor az itt jelenik meg
- * **Results**: annak a táblázatba szedése, hogy mi szerepel az előbbi ablakban
- * **Explorer**: hozzáférést biztosít a SAS könyvtárjainkhoz és fáljainkhoz
- * 
+ * hasonlóan a megszokott interaktív programozói felületekhez, a SAS ugyanúgy tartalmaz egy parancs sort, ahol lehetőségünk van menük elérésére ( például Help, kivágás, másolás ), a toolbar használatára ( gyorsgombok )
