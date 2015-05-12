@@ -1,4 +1,4 @@
-# Első fejezet
+# Első fejezet - első rész
 
 ## A SAS nyelv
  * az egyes parancsok kiértékelése a megadás sorrendjéban történik
