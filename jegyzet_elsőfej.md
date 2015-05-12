@@ -61,4 +61,9 @@
   * **Results**: annak a táblázatba szedése, hogy mi szerepel az előbbi ablakban
   * **Explorer**: hozzáférést biztosít a SAS könyvtárjainkhoz és fáljainkhoz
  * persze ezeken felül további típusok is léteznek - például a **Help**, **Options** és ilyenek
- * hasonlóan a megszokott interaktív programozói felületekhez, a SAS ugyanúgy tartalmaz egy parancs sort, ahol lehetőségünk van menük elérésére ( például Help, kivágás, másolás ), a toolbar használatára ( gyorsgombok )
+ * hasonlóan a megszokott interaktív programozói felületekhez, a SAS ugyanúgy tartalmaz egy parancs sort, ahol lehetőségünk van parancsok kiadására
+ * ehhez három különböző opció is elérhető: a menük, a toolbar és a parancs sáv
+ * a menüket tartalmazó sáv attól függően, hogy a programunkon belül melyik ablak aktív, változik - persze ezek a lehetőségek az adott ablakban való jobb-klikk-kel is elérhetőek
+ * a toolbar gyors elérést biztosít az adott ablakok legtöbbet használt parancsaihoz
+ * a parancs sávban képesek vagyunk ezen parancsokat billentyűzetről bevinni
+ * a SAS kinézetét a Window legördülő menü segítségével tudjuk igényeinknek megfelelően személyre szabni ( persze lehet úgy is, hogy a parancs sávba a window parancsot írjuk )
