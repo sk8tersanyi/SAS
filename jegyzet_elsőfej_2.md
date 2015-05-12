@@ -1,4 +1,4 @@
-# Első fejezet - első rész
+# Első fejezet - második rész
 
 ## SAS programok fordítása
 
