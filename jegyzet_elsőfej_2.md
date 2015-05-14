@@ -53,8 +53,25 @@
   * ennek az adattáblának az adatait jobb egérgombbal az ikonjára kattintva és a *Properties* opciót választva érhetjük el
   * itt lehetőség van megnézni hány sorunk és oszlopunk van, ezek milyen tipusúak, stb. - ez persze egy programon belül a **CONTENTS** paranccsal is elérhető
 
-## SAS rendszer opciók
+## SAS rendszer beállítások
 
-  * 
+  * értelemszerűen azon beállításokról van itt szó, melyek befolyásolják a SAS-t
+  * persze az élet megkönnyítése érdekében a SAS rengeteg alapértelmezett beállítást használ, de előfordulhat, hogy számunkra sokkal kényelmesebb ha ezek közül módosítgatunk párat
+  * megjegyezendő, hogy operációs rendszertől is függ, hogy mely beállításokat tudjuk módosítani - ezeknek a SAS dokumentációban tudunk utánanézni
+  * habár 4 lehetőségünk van ezen beállítások megadására, mi csak kettőt említünk itt
+  * az első úgy érhető el ha a parancs sávba az option parancsot gépeljük, vagy a *Tools/Options/System..* útvonalon, ekkor a felugró SAS System options ablakban értelemszerűen lehet paramétereket beállítani
+  * a másik pedig az **OPTIONS** paranccsal a SAS programunkon belül
+  * fontos megjegyezni, hogy ez egy globális parancs, azaz nem kell szükségszerűen DATA-STEP, vagy PROC-STEP keretein belül szerepelnie - persze ha ott szerepel akkor csak az adoot programrész paramétereire vonatkozik
+  * a sorrendben legutoljára szereplő mindig felülírja a korábban szereplőket
+  * az összes lehetőség elérhető hogy ha a PROC options; RUN; program futtatása után megnézzük a felugró Log ablak elemeit, de a legfontosabbakat itt is kilistázzuk:
+   * **CENTER | NOCENTER** - az Output középre, vagy balra rendezett
+   * **DATE | NODATE** - a kimeneten szerepeljen e a mai dátum, vagy sem
+   * **LINESIZE = n** - a kimenet sorainak maximális hossza ( 64 - 256 )
+   * **NUMBER | NONUMBER** - legyen e a kimeneten oldalszám, vagy sem
+   * **ORIENTATION = PORTRAIT | LANDSCAPE** - a kimenet "elhelyezése"
+   * **PAGENO = n** - a kimenet oldalainak számozását *n*-től kezdi
+   * **PAGESIZE = n** - a kimenetet tartalmazó oladalainak maximális sorainak száma ( 15 - 32767 )
+   * **RIGHTMARGIN | LEFTMARGIN | TOPMARGIN | BOTTOMMARGIN = n** - margók beállítása
+   * **YEARCUTOFF = yyyy** - 
 
 
