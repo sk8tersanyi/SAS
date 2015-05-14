@@ -47,6 +47,14 @@
 
 ## SAS Explorer
 
+  * Az Explorer ablak nem csak új könyvtárak definiálására használható, hanem korábbiak tartalmának vizsgálatára is - például egy táblázatot leíró adatok lekérdezésére
+  * az aktív könyvtárakat tartalmazó ablakban válasszuk ki a számunkra érdekes könyvtárat, ekkor a tartalma megjelenik 
+  * a megfelelő táblázat ikonra kattintva felugrik a Viewtable ablak benne az általunk kiválasztott adathalmaz
+  * ennek az adattáblának az adatait jobb egérgombbal az ikonjára kattintva és a *Properties* opciót választva érhetjük el
+  * itt lehetőség van megnézni hány sorunk és oszlopunk van, ezek milyen tipusúak, stb. - ez persze egy programon belül a **CONTENTS** paranccsal is elérhető
+
+## SAS rendszer opciók
+
   * 
 
 
