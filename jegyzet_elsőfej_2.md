@@ -25,5 +25,13 @@
   * ez azért is hasznos, mert előfordulhat, hogy a kimenetnek csak egy rész érdekel minket - ekkor könnyen lekereshető, hogy mely programrészhez melyik eredmény tartozik
   * a kimenetnek, vagy kimenet egy részének elmentése, illetve nyomtatása Windows-on értelemszerűen történik
 
+## HTML Output
+
+  * a legenerált táblázatok megjelenésének és megjelenítésének beállításáról lesz szó az alábbiakban
+  * ahhoz hogy ezen lehetőségeket elérjük: *Tools/Options/Preferences.../Results* 
+  * legfontosabb opciók: **Create Listing** ( alapértelmezett kimenet ); **Create HTML** ( legyen e HTML kimenet ); **Style** ( milyen kinézetű legyen a HTML output )
+  * amennyiben bekapcsoltuk a HTML kimenetet, akkor a futtatás során a kimenet automatikusan meg fog jelenni a Result Viewer ablakban, míg az eredmények struktúrája a Results ablakban
+
+
 
 
