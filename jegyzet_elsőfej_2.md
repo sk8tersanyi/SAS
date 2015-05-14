@@ -63,7 +63,7 @@
   * a másik pedig az **OPTIONS** paranccsal a SAS programunkon belül
   * fontos megjegyezni, hogy ez egy globális parancs, azaz nem kell szükségszerűen DATA-STEP, vagy PROC-STEP keretein belül szerepelnie - persze ha ott szerepel akkor csak az adoot programrész paramétereire vonatkozik
   * a sorrendben legutoljára szereplő mindig felülírja a korábban szereplőket
-  * az összes lehetőség elérhető hogy ha a PROC options; RUN; program futtatása után megnézzük a felugró Log ablak elemeit, de a legfontosabbakat itt is kilistázzuk:
+  * az összes lehetőség elérhető hogy ha a *PROC options; RUN;* program futtatása után megnézzük a felugró Log ablak elemeit, de a legfontosabbakat itt is kilistázzuk:
    * **CENTER | NOCENTER** - az Output középre, vagy balra rendezett
    * **DATE | NODATE** - a kimeneten szerepeljen e a mai dátum, vagy sem
    * **LINESIZE = n** - a kimenet sorainak maximális hossza ( 64 - 256 )
@@ -72,6 +72,7 @@
    * **PAGENO = n** - a kimenet oldalainak számozását *n*-től kezdi
    * **PAGESIZE = n** - a kimenetet tartalmazó oladalainak maximális sorainak száma ( 15 - 32767 )
    * **RIGHTMARGIN | LEFTMARGIN | TOPMARGIN | BOTTOMMARGIN = n** - margók beállítása
-   * **YEARCUTOFF = yyyy** - 
+
+
 
 
