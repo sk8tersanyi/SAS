@@ -32,6 +32,21 @@
   * legfontosabb opciók: **Create Listing** ( alapértelmezett kimenet ); **Create HTML** ( legyen e HTML kimenet ); **Style** ( milyen kinézetű legyen a HTML output )
   * amennyiben bekapcsoltuk a HTML kimenetet, akkor a futtatás során a kimenet automatikusan meg fog jelenni a Result Viewer ablakban, míg az eredmények struktúrája a Results ablakban
 
+## SAS könyvtárak
 
+  * egy SAS könyvtár egyszerűen nem más, mint SAS adatbázisok és fájlok gyűjtőhelye - ez lehet egy szimpla mappa, vagy akár egy CD
+  * habár egy ilyen könyvtár definiálása többféleképp történhet ( programon belül **LIBNAME** paranccsal ), most az interktív módot mutatjuk be
+  * ehhez meg kell nyitni a korábban taglalt Explorer ablakot ezen belül pedig a Librarie ikonra kattintva az épp aktív könyvtárakat
+  * itt legalább három könytár fog fogadni minket:
+   * **Sashelp**: olyan információk melyek segíthetnek a munkaánk közben, továbbá minta adatbázisok
+   * **Work**: adatbázisaink ideiglenes tárhelye - ez az alapértelmezett könyvtár, azaz ha létrehozunk egy adatbázist a mentési helyének beállítása nélkül, akkor a SAS automatikusan itt tárolja a munkafolyamat bezárásáig
+   * **Sasuser**: itt tároljuk a SAS környezet beállításait; persze ide is lehet adatbázisokat, programokat és további fájlokat menteni
+  * egy új könyvtár létrehozásának egyszerű módja, hogy az aktív könyvtárakat tartalmazó ablakban való jobb-klikk után kiválasztjuk a New opciót
+  * ekkor a felugró New Library ablakban minen szükséges paraméter értelemszerűen megadható
+  * ha nem akarjuk minden session megkezdése előtt definiálni ezt a könyvtárat, akkor pipáljuk az **Enable at startup** opciót a definiálás közben
+
+## SAS Explorer
+
+  * 
 
 
